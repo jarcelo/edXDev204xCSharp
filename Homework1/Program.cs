@@ -55,7 +55,7 @@ namespace Homework1
             Console.WriteLine();
 
             // University Degree
-            Console.WriteLine("***ENTER UNIVERSITY INFORMATION***");
+            Console.WriteLine("***ENTER UNIVERSITY DEGREE INFORMATION***");
             Console.Write("Degree Name: ");
             String degreeName = Console.ReadLine();
             Console.Write("Degree Description: ");
@@ -82,7 +82,7 @@ namespace Homework1
             String courseName = Console.ReadLine();
             Console.Write("Course Description: ");
             String courseDescription = Console.ReadLine();
-            Console.Write("Course Credits Per Hour: ");
+            Console.Write("Course Credits/Hour: ");
             int creditsPerHour = int.Parse(Console.ReadLine());
             Console.WriteLine();
 
