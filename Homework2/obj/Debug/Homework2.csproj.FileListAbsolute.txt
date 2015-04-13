@@ -1,0 +1,2 @@
+C:\Users\joe\Documents\GitHub\edX_CSharpDev204x\Homework2\bin\Debug\Homework2.exe.config
+C:\Users\joe\Documents\GitHub\edX_CSharpDev204x\Homework2\obj\Debug\Homework2.exe
