@@ -1,0 +1,5 @@
+C:\Users\joe\Documents\GitHub\edX_CSharpDev204x\Homework3\bin\Debug\Homework3.exe.config
+C:\Users\joe\Documents\GitHub\edX_CSharpDev204x\Homework3\bin\Debug\Homework3.exe
+C:\Users\joe\Documents\GitHub\edX_CSharpDev204x\Homework3\bin\Debug\Homework3.pdb
+C:\Users\joe\Documents\GitHub\edX_CSharpDev204x\Homework3\obj\Debug\Homework3.exe
+C:\Users\joe\Documents\GitHub\edX_CSharpDev204x\Homework3\obj\Debug\Homework3.pdb

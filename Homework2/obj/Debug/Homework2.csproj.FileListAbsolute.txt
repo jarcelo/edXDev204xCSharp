@@ -5,6 +5,5 @@ C:\Users\joe\Documents\GitHub\edX_CSharpDev204x\Homework2\obj\Debug\Homework2.ex
 C:\Users\joe\Documents\GitHub\edX_CSharpDev204x\Homework2\bin\Debug\Homework2.exe
 C:\Users\joe\Documents\GitHub\edX_CSharpDev204x\Homework2\bin\Debug\Homework2.pdb
 C:\Users\joe\Documents\GitHub\edX_CSharpDev204x\Homework2\obj\Debug\Homework2.csprojResolveAssemblyReference.cache
-C:\Users\joe\Documents\GitHub\edX_CSharpDev204x\Homework2\obj\Debug\Homework2.exe
 C:\Users\joe\Documents\GitHub\edX_CSharpDev204x\Homework2\obj\Debug\Homework2.pdb
 >>>>>>> master
