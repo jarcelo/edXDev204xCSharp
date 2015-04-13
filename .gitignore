@@ -41,4 +41,4 @@ Thumbs.db
 # Then run: "git commit -am "Remove ignored files" #
 *.config
 *.sln
-*.sou
+*.suo
