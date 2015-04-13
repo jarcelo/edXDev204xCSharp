@@ -36,4 +36,9 @@
 ehthumbs.db
 Thumbs.db
 
+# Added to gitignore #
+# Run: "git rm -r --cached .", then "git add ." to apply changes#
+# Then run: "git commit -am "Remove ignored files" #
 *.config
+*.sln
+*.suo
