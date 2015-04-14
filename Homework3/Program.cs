@@ -10,11 +10,13 @@ namespace Homework3
     {
         static void Main(string[] args)
         {
-            // Call GetStudentInfor method
+            // Call GetStudentInfo method
             GetStudentInfo();
+            // Call GetTeacherInfo method
             GetTeacherInfo();
+            GetCourseInfo();
             Console.ReadLine();
-            // Create a method to get information for a teacher, a course, and program, and a degree using a similar method as above
+            // Create a method to get information for a course, and program, and a degree using a similar method as above
         }
 
         // Method that prompts the user to input student information
@@ -49,13 +51,25 @@ namespace Homework3
             string subject = Console.ReadLine();
             PrintTeacherInfo(firstName, lastName, subject);
         }
-
         static void PrintTeacherInfo(string firstName, string lastName, string subject)
         {
             //throw new NotImplementedException();
             Console.WriteLine("-------------------------------------------");
-            Console.WriteLine("Teacher: {0} {1} will teach: {2}", firstName, lastName, subject);
+            Console.WriteLine("Teacher: {0} {1} will teach {2}", firstName, lastName, subject);
             Console.WriteLine("-------------------------------------------");
+        }
+
+        static void GetCourseInfo()
+        {
+            //throw new NotImplementedException();
+            Console.WriteLine("***ENTER COURSE INFORMATION***");
+            Console.Write("Course ID: ");
+            string courseID = Console.ReadLine();
+            Console.Write("Course Name: ");
+            string courseName = Console.ReadLine();
+            Console.Write("Course Description: ");
+            string courseDesc = Console.ReadLine();
+            PrintCourseInfo(courseID, courseName, courseDesc);
         }
     }
 }
