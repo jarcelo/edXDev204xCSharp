@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Homework3
 {
@@ -14,10 +10,16 @@ namespace Homework3
             GetStudentInfo();
             // Call GetTeacherInfo method
             GetTeacherInfo();
+            // Call GetCourseInfo method
             GetCourseInfo();
+            // Call GetProgramInfo method
+            GetProgramInfo();
+            // Call GetDegreeInfo method
+            //GetDegreeInfo();
             Console.ReadLine();
-            // Create a method to get information for a course, and program, and a degree using a similar method as above
+            // Create a method to get information for a program, and a degree using a similar method as above
         }
+
 
         // Method that prompts the user to input student information
         static void GetStudentInfo()
@@ -51,6 +53,7 @@ namespace Homework3
             string subject = Console.ReadLine();
             PrintTeacherInfo(firstName, lastName, subject);
         }
+        // Method that prints teacher information
         static void PrintTeacherInfo(string firstName, string lastName, string subject)
         {
             //throw new NotImplementedException();
@@ -58,7 +61,7 @@ namespace Homework3
             Console.WriteLine("Teacher: {0} {1} will teach {2}", firstName, lastName, subject);
             Console.WriteLine("-------------------------------------------");
         }
-
+        // Method that prompts user to enter course information
         static void GetCourseInfo()
         {
             //throw new NotImplementedException();
@@ -70,6 +73,28 @@ namespace Homework3
             Console.Write("Course Description: ");
             string courseDesc = Console.ReadLine();
             PrintCourseInfo(courseID, courseName, courseDesc);
+        }
+        // Method that prints course information
+        static void PrintCourseInfo(string courseID, string courseName, string courseDesc)
+        {
+            //throw new NotImplementedException();
+            Console.WriteLine("-------------------------------------------");
+            Console.WriteLine("COURSE ID: {0}\n COURSE NAME: {1}\n COURSE DESCRIPTION: {2}", courseID, courseName, courseDesc);
+            Console.WriteLine("-------------------------------------------");
+        }
+        // Method that prompts user to enter program information
+        static void GetProgramInfo()
+        {
+            //throw new NotImplementedException();
+            Console.WriteLine("***ENTER PROGRAM INFORMATION***");
+            Console.Write("Program ID: ");
+            string programID = Console.ReadLine();
+            Console.Write("Program Name: ");
+            string programName = Console.ReadLine();
+            Console.Write("Program Description: ");
+            string programDesc = Console.ReadLine();
+            PrintCourseInfo(programID, programName, programDesc);
+
         }
     }
 }
